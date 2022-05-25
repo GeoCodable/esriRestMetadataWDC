@@ -833,7 +833,7 @@ with version 10.8.1 or higher.*](https://developers.arcgis.com/rest/services-ref
 - For complete steps on adding data to Tableau via a Web Data Connector, reference the [Connect to the data source](https://help.tableau.com/current/pro/desktop/en-us/examples_web_data_connector.htm#:~:text=on%20Tableau%20Public.-,Connect%20to%20the%20data%20source,-Start%20Tableau%20and)
 section in Tableau's official documentation. 
 
-
+- To test and debug a Web Data Connector with parameters, use the Tableau WDC [Simulator](https://tableau.github.io/webdataconnector/Simulator) while using browser developer tools *(Ctrl+Shift+I)*  
 
 ## [dataSchemas WDC:](https://GeoCodable.github.io/esriRestMetadataWDC/dataSchemas)
 
@@ -1184,3 +1184,5 @@ The [dataSourceMetadata WDC](#datasourcemetadata-wdc) can be joined **to** the r
 ### How to use Web Data Connectors: 
 - For complete steps on adding data to Tableau via a Web Data Connector, reference the [Connect to the data source](https://help.tableau.com/current/pro/desktop/en-us/examples_web_data_connector.htm#:~:text=on%20Tableau%20Public.-,Connect%20to%20the%20data%20source,-Start%20Tableau%20and)
 section in Tableau's official documentation.
+
+- To test and debug a Web Data Connector with parameters, use the Tableau WDC [Simulator](https://tableau.github.io/webdataconnector/Simulator) while using browser developer tools *(Ctrl+Shift+I)* 
