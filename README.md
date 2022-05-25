@@ -5,7 +5,7 @@ Collection of Tableau Web Data Connectors (WDC) that enables tableau to read met
   - [dataSourceMetadata WDC](#datasourcemetadata-wdc)
   - [dataSchemas WDC](#dataschemas-wdc)
 
-## [dataSourceMetadata WDC:](https://ahamptonga.github.io/esriRestMetadataWebDataConnector/dataSourceMetadata)
+## [dataSourceMetadata WDC:](https://GeoCodable.github.io/esriRestMetadataWDC/dataSourceMetadata)
 
 ### Description: 
 Tableau Web Data Connector (WDC) that returns a list of data sources available on an ESRI REST
@@ -827,7 +827,7 @@ with version 10.8.1 or higher.*](https://developers.arcgis.com/rest/services-ref
 
 #### Example URL with query parameters:
 ```
-../esriRestMetadataWebDataConnector/dataSourceMetadata?esriRestUrl=https://cartowfs.nationalmap.gov/arcgis/rest&esriRestName=The National Map&getCounts=exact
+../esriRestMetadataWDC/dataSourceMetadata?esriRestUrl=https://cartowfs.nationalmap.gov/arcgis/rest&esriRestName=The National Map&getCounts=exact
 ```
 ### How to use Web Data Connectors: 
 - For complete steps on adding data to Tableau via a Web Data Connector, reference the [Connect to the data source](https://help.tableau.com/current/pro/desktop/en-us/examples_web_data_connector.htm#:~:text=on%20Tableau%20Public.-,Connect%20to%20the%20data%20source,-Start%20Tableau%20and)
@@ -835,7 +835,7 @@ section in Tableau's official documentation.
 
 
 
-## [dataSchemas WDC:](https://ahamptonga.github.io/esriRestMetadataWebDataConnector/dataSchemas)
+## [dataSchemas WDC:](https://GeoCodable.github.io/esriRestMetadataWDC/dataSchemas)
 
 ### Description: 
 Tableau Web Data Connector (WDC) that returns the ESRI/ArcGIS field/column definitions and metadata by column name and data source URL.  The returned values represent the ESRI field/column definitions applied to the service level including the data types, aliases, permissions, constraints, and domain properties.  Please note that these properties represent the published service properties and may not represent the underlying data structure with the source database. 
@@ -1179,13 +1179,8 @@ The [dataSourceMetadata WDC](#datasourcemetadata-wdc) can be joined **to** the r
 
 #### Example URL with query parameters:
 ```
-../esriRestMetadataWebDataConnector/dataSchemas?esriRestUrl=https://cartowfs.nationalmap.gov/arcgis/rest&esriRestName=The National Map
+../esriRestMetadataWDC/dataSchemas?esriRestUrl=https://cartowfs.nationalmap.gov/arcgis/rest&esriRestName=The National Map
 ```
 ### How to use Web Data Connectors: 
 - For complete steps on adding data to Tableau via a Web Data Connector, reference the [Connect to the data source](https://help.tableau.com/current/pro/desktop/en-us/examples_web_data_connector.htm#:~:text=on%20Tableau%20Public.-,Connect%20to%20the%20data%20source,-Start%20Tableau%20and)
 section in Tableau's official documentation.
-
-
-
-
-
