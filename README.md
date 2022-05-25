@@ -1,5 +1,5 @@
 # Web Data Connector for ESRI REST API Metadata  
-Collection of Tableau Web Data Connectors (WDC) that enables tableau to read metadata and data structures/schemas from nearly any accessible ESRI REST server or portal. Data services include 'MapServer' and 'FeatureServer' only. Data sources are returned to Tableau with corresponding metadata and/or data structure/schemas to provide documentation of published service data structures and properties. Please note that these properties represent the published REST service properties and may not represent the underlying data structure with the source database.
+Collection of Tableau Web Data Connectors (WDC) that enable [Tableau](https://www.tableau.com) to read metadata and data schemas/structures from nearly any openly-accessible ESRI REST server or portal. Data services include 'MapServer' and 'FeatureServer' only. Data sources are returned to Tableau with corresponding metadata and/or data structure/schemas to provide documentation of published service data structures and properties. Please note that these properties represent the published REST service properties and may not represent the underlying data structure with the source database.
 
 - Connector in the collection:
   - [dataSourceMetadata WDC](#datasourcemetadata-wdc)
