@@ -7,6 +7,9 @@ Collection of Tableau Web Data Connectors (WDC) that enable [Tableau](https://ww
 
 ## [dataSourceMetadata WDC:](https://GeoCodable.github.io/esriRestMetadataWDC/dataSourceMetadata)
 
+### Web Data Connector Link: 
+> ***[https://GeoCodable.github.io/esriRestMetadataWDC/dataSourceMetadata](https://GeoCodable.github.io/esriRestMetadataWDC/dataSourceMetadata)***  
+
 ### Description: 
 Tableau Web Data Connector (WDC) that returns a list of data sources available on an ESRI REST
 server or portal server.  Data sources are listed alongside dataset level metadata properties.  
@@ -836,6 +839,9 @@ section in Tableau's official documentation.
 - To test and debug a Web Data Connector with parameters, use the Tableau WDC [Simulator](https://tableau.github.io/webdataconnector/Simulator) while using browser developer tools *(Ctrl+Shift+I)*  
 
 ## [dataSchemas WDC:](https://GeoCodable.github.io/esriRestMetadataWDC/dataSchemas)
+
+### Web Data Connector Link: 
+> ***[https://GeoCodable.github.io/esriRestMetadataWDC/dataSchemas](https://GeoCodable.github.io/esriRestMetadataWDC/dataSchemas)***
 
 ### Description: 
 Tableau Web Data Connector (WDC) that returns the ESRI/ArcGIS field/column definitions and metadata by column name and data source URL.  The returned values represent the ESRI field/column definitions applied to the service level including the data types, aliases, permissions, constraints, and domain properties.  Please note that these properties represent the published service properties and may not represent the underlying data structure with the source database. 
