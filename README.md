@@ -896,7 +896,7 @@ The [dataSourceMetadata WDC](#datasourcemetadata-wdc) can be joined **to** the r
   font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
   none;font-family:Calibri, sans-serif;border-top:.5pt solid #8EA9DB;
   border-right:.5pt solid #8EA9DB;border-bottom:.5pt solid #8EA9DB;border-left:
-  none;background:#D9E1F2;mso-pattern:#D9E1F2 none">(FK) - dataSourceMetadata WDC)</td>
+  none;background:#D9E1F2;mso-pattern:#D9E1F2 none">(FK) - dataSourceMetadata WDC</td>
  </tr>
  <tr height="20" style="height:15.0pt;box-sizing: border-box">
   <td height="20"  align="left" style="height:15.0pt;font-size:11.0pt;
