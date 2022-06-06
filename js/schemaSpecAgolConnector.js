@@ -8,16 +8,13 @@ var schemaSpecUrl 	= queryParams['schemaSpecUrl'];
 var specQuery 		= queryParams['esriRestName'];
 var connName		= queryParams['connName'];
 
-if ((!(specQuery)){
+if (!(specQuery)){
 	specQuery = 'query?where=1=1&outFields=*&f=json';
 }
 
-if ((!(connName)){
+if (!(connName)){
 	connName = 'schemaSpec';
 }
-
-/* https://services1.arcgis.com/cc7nIINtrZ67dyVJ/ArcGIS/rest/services/schema_spec_example_gdb/FeatureServer/0/query?where=1=1&outFields=*&f=json 
-*/
 
 (function() {
     // Create the connector object
@@ -25,55 +22,55 @@ if ((!(connName)){
 
     // Define the schema
     myConnector.getSchema = function(schemaCallback) {
-        var cols = 
-		{	id: 'OBJECTID', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {		
-		{	id: 'column_alias', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
-		{	id: 'column_defaultValue', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
-		{	id: 'column_editable', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
-		{	id: 'column_length', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
-		{	id: 'column_name', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
-		{	id: 'column_nullable', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
-		{	id: 'column_type', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
-		{	id: 'domain_codedValues', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
-		{	id: 'domain_description', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
-		{	id: 'domain_name', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
-		{	id: 'domain_range', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
-		{	id: 'domain_type', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
-		{	id: 'column_description', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
-		{	id: 'column_mandatory', 
-			dataType: tableau.dataTypeEnum.string
-		}, {
-		{	id: 'parent_schema_id', 
-			dataType: tableau.dataTypeEnum.string 
-		}, {
+        var cols = [
+			{	id: 'OBJECTID', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {		
+				id: 'column_alias', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {
+				id: 'column_defaultValue', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {
+				id: 'column_editable', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {
+				id: 'column_length', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {
+				id: 'column_name', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {
+				id: 'column_nullable', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {
+				id: 'column_type', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {
+				id: 'domain_codedValues', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {
+				id: 'domain_description', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {
+				id: 'domain_name', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {
+				id: 'domain_range', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {
+				id: 'domain_type', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {
+				id: 'column_description', 
+				dataType: tableau.dataTypeEnum.string 
+			}, {
+				id: 'column_mandatory', 
+				dataType: tableau.dataTypeEnum.string
+			}, {
+				id: 'parent_schema_id', 
+				dataType: tableau.dataTypeEnum.string 
+			}
 
 		];
 
