@@ -98,7 +98,7 @@ if (!(connName)){
 					'column_defaultValue': feat[i].attributes.column_defaultValue ,
 					'column_editable': feat[i].attributes.column_editable ,
 					'column_length': feat[i].attributes.column_length ,
-					'column_name': feat[i].attributes.column_name ,
+					'column_name': (feat[i].attributes.column_name).toUpperCase() ,
 					'column_nullable': feat[i].attributes.column_nullable ,
 					'column_type': feat[i].attributes.column_type ,
 					'domain_codedValues': feat[i].attributes.domain_codedValues ,
