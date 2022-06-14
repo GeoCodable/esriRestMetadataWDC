@@ -118,6 +118,7 @@ async function getDataSrcSchemas() {
 						newRow[col] = null_default;
 					};
 				};
+				outputArray['column_name'] = (outputArray['column_name']).toUpperCase();
 				outputArray.push(newRow);	
 			};
 		};
