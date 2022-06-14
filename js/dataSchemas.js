@@ -113,12 +113,13 @@ async function getDataSrcSchemas() {
 				// attribute remaining nulls
 				for (let c = 0; c < (columnList).length; c++) {
 					let col = columnList[c];
-					
+					if (col == 'column_name'){
+						newRow[col] = (newRow[col]).toUpperCase();
+					}
 					if ((!(newRow[col])) && (!(newRow[col] == 0))) {
 						newRow[col] = null_default;
 					};
 				};
-				outputArray['column_name'] = (outputArray['column_name']).toUpperCase();
 				outputArray.push(newRow);	
 			};
 		};
