@@ -5,7 +5,7 @@ var urlSearchParams = new URLSearchParams(window.location.search);
 var queryParams = Object.fromEntries(urlSearchParams.entries());
 // get the parmas for the function profile_rest()
 var schemaSpecUrl 	= queryParams['schemaSpecUrl'];
-var specQuery 		= queryParams['esriRestName'];
+var specQuery 		= queryParams['specQuery'];
 var connName		= queryParams['connName'];
 
 if (!(specQuery)){
