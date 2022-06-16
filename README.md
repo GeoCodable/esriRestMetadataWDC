@@ -1199,7 +1199,7 @@ section in Tableau's official documentation.
 > ***[https://GeoCodable.github.io/esriRestMetadataWDC/schemaSpec](https://GeoCodable.github.io/esriRestMetadataWDC/schemaSpec)***  
 
 ### Description: 
-Tableau Web Data Connector (WDC) that reads a defined schema specification (spec) data from a table hosted within ArcGIS Online or ArcGIS portal.  The purpose of the schemaSpec WDC is to connect to a hosted table which contains information detailing a set of data standards listed by column name.   The schema spec data details how columns of data are to be defined by column name.  A [template for the schema specification (spec) file geodatabase/table](https://github.com/GeoCodable/esriRestMetadataWDC/blob/main/schema_spec_template.gdb.zip) is avilable within the repo.    Unzip the file geodatbase to load or attribute the data governace standards to the table via ArcGIS Pro or ArcGIS Portal/Online.   
+Tableau Web Data Connector (WDC) that reads a defined schema specification (spec) data from a table hosted within ArcGIS Online or ArcGIS portal. The purpose of the schemaSpec WDC is to connect to a hosted table which contains information detailing a set of data standards listed by column name. The schema spec data details how columns of data are to be defined by column name. A template for the schema specification (spec) file geodatabase/table is available within the repo. Unzip the file geodatabase to load or attribute the data governance standards to the table via ArcGIS Pro or ArcGIS Portal/Online.
 
 ### Relationships:
 The resulting Tableau data source table can be joined **to** the [dataSchemas WDC](#dataschemas-wdc) data source table using the 'column_name' column as a foreign key (FK).  
@@ -1207,33 +1207,28 @@ The resulting Tableau data source table can be joined **to** the [dataSchemas WD
 ### WDC Schema/Data Structure:
 <details>
   <summary>Click to view schemaSpec WDC Schema</summary>  
-</tbody></table>
+<table></table>
 
  </details>  
   
 ### Query Parameters: 
-- **"esriRestUrl" *(Required)***  
-  - The *"esriRestUrl"* query parameters allow users to publish a WDC specific to a given ESRI REST API by providing the URL as a parameter.  
-    - Example: 'esriRestUrl=https://cartowfs.nationalmap.gov/arcgis/rest'  
+- **"schemaSpecUrl" *(Required)***  
+  - The *"schemaSpecUrl"* query parameters allow users to connect to a schema specification table hosted in ArcGIS Portal, Online, or REST server by providing the URL as a parameter. 
+    - Example: 'schemaSpecUrl=https://services.arcgis.com/bb8pZ67djVvqq9pIINtr/arcgis/rest/services/schema_spec_gdb/FeatureServer/0'  
  
-- **"esriRestName" *(Required)***  
-  - A WDC name is also provided via the *"esriRestName"* parameter.  Naming the WDC allows data source organization within Tableau/Tableau Server and tracking of multiple WDC's spanning different ERSI REST API's. 
-    - Example: 'esriRestName=The National Map'  
+- **"connName" *(Required)***  
+  - A WDC name is also provided via the *"connName"* parameter.  Naming the WDC allows data source organization within Tableau/Tableau Server and tracking of multiple WDC's spanning different schema spec data sources. 
+    - Example: 'connName=Schema Spec 01'  
 
-- **"getCounts" *(Optional)***  
-  - *"getCounts"* can be set to obtain record counts during the metadata collection *if* the method is available to the service.  The *"getCounts"* parameter is optional with the allowed values/methods of 'exact' or 'approx'.  The 'approx' method returns an estimated record count, but
-is slightly more efficient than the 'exact method which returns an accurate total.  
-    - Example: 'getCounts=exact'  
-    - Example: 'getCounts=approx'  
-
-  - Additional info on record counts:  
-    - [the approx method *(where=9999=9999)* is ***only** available with REST services
-with version 10.8.1 or higher.*](https://developers.arcgis.com/rest/services-reference/enterprise/query-feature-service-layer-.htm#:~:text=Non%2Dhosted%20feature%20services%20published,and%20isDataArchived%20as%20false.)  
-    - [See the ESRI REST documentation for more on returning record counts](https://developers.arcgis.com/rest/services-reference/enterprise/query-feature-service-layer-.htm#:~:text=true%20%7C%20false-,returnCountOnly,-If%20true%2C%20the)  
+- **"specQuery" *(Optional)***  
+  - *"specQuery"* can be set to perform specialized queries aginst an ArcGIS Portal, Online, or REST server schema spec table. When unspecified, all records and all fields are retruned from the schema spec table.     
+    - Example: 'where=parent_schema_id=schema_spec_01&outFields=*&f=json'  
+ 
+    - [See the ESRI REST documentation for more on query parameters](https://developers.arcgis.com/rest/services-reference/enterprise/query-feature-service-layer-.htm#:~:text=true%20%7C%20false-,returnCountOnly,-If%20true%2C%20the)  
 
 #### Example URL with query parameters:
 
-> ```../esriRestMetadataWDC/dataSourceMetadata?esriRestUrl=https://cartowfs.nationalmap.gov/arcgis/rest&esriRestName=The National Map&getCounts=exact```
+> ```../esriRestMetadataWDC/specQuery?schemaSpecUrl=https://services.arcgis.com/bb8pZ67djVvqq9pIINtr/arcgis/rest/services/schema_spec_gdb/FeatureServer/0&esriRestName=Schema Spec 01```
 
 ### How to use Web Data Connectors: 
 - For complete steps on adding data to Tableau via a Web Data Connector, reference the [Connect to the data source](https://help.tableau.com/current/pro/desktop/en-us/examples_web_data_connector.htm#:~:text=on%20Tableau%20Public.-,Connect%20to%20the%20data%20source,-Start%20Tableau%20and)
