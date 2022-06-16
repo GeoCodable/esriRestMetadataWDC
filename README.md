@@ -4,6 +4,7 @@ Collection of Tableau Web Data Connectors (WDC) that enable [Tableau](https://ww
 - Connector in the collection:
   - [dataSourceMetadata WDC](#datasourcemetadata-wdc)
   - [dataSchemas WDC](#dataschemas-wdc)
+  - [schemaSpec WDC](#schemaspec-wdc)
 
 ## [dataSourceMetadata WDC:](https://GeoCodable.github.io/esriRestMetadataWDC/dataSourceMetadata)
 
@@ -1191,3 +1192,18 @@ The [dataSourceMetadata WDC](#datasourcemetadata-wdc) can be joined **to** the r
 section in Tableau's official documentation.
 
 - To test and debug a Web Data Connector with parameters, use the Tableau WDC [Simulator](https://tableau.github.io/webdataconnector/Simulator) while using browser developer tools *(Ctrl+Shift+I)* 
+
+## [schemaSpec WDC:](https://GeoCodable.github.io/esriRestMetadataWDC/schemaSpec)
+
+### Web Data Connector Link: 
+> ***[https://GeoCodable.github.io/esriRestMetadataWDC/schemaSpec](https://GeoCodable.github.io/esriRestMetadataWDC/schemaSpec)***  
+
+### Description: 
+Tableau Web Data Connector (WDC) that reads a defined schema specification (spec) data from a table hosted within ArcGIS Online or ArcGIS portal.  The purpose of the schemaSpec WDC is to connect to a hosted table which contains information detailing a set of data standards listed by column name.   The schema spec data details how columns of data are to be defined by column name.  A [template for the schema specification (spec) file geodatabase/table](https://github.com/GeoCodable/esriRestMetadataWDC/blob/main/schema_spec_template.gdb.zip) is avilable within the repo.    Unzip the file geodatbase to load or attribute the data governace standards to the table via ArcGIS Pro or ArcGIS Portal/Online.   
+
+### Relationships:
+The resulting Tableau data source table can be joined **to** the [dataSchemas WDC](#dataschemas-wdc) data source table using the 'column_name' column as a foreign key (FK).  
+
+### WDC Schema/Data Structure:
+<details>
+  <summary>Click to view schemaSpec WDC Schema</summary>  
