@@ -1207,7 +1207,357 @@ The resulting Tableau data source table can be joined **to** the [dataSchemas WD
 ### WDC Schema/Data Structure:
 <details>
   <summary>Click to view schemaSpec WDC Schema</summary>  
-<table></table>
+<table><tbody><tr height="24" style="height:18.0pt;box-sizing: border-box;background-color:
+  var(--color-canvas-default);border-top:var(--color-border-muted)">
+  <td height="24" class="xl65" width="191" style="height:18.0pt;width:143pt;
+  font-size:12.0pt;color:#24292F;font-weight:700;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:&quot;Segoe UI&quot;, sans-serif;
+  border-top:.5pt solid #8EA9DB;border-right:none;border-bottom:.5pt solid #8EA9DB;
+  border-left:.5pt solid #8EA9DB;background:#4472C4;mso-pattern:#4472C4 none;
+  box-sizing: border-box;border:var(--color-border-default);padding-bottom:
+  6px;padding-top:6px">ID</td>
+  <td class="xl65" width="69" style="width:52pt;font-size:12.0pt;color:#24292F;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:&quot;Segoe UI&quot;, sans-serif;border-top:.5pt solid #8EA9DB;
+  border-right:none;border-bottom:.5pt solid #8EA9DB;border-left:none;
+  background:#4472C4;mso-pattern:#4472C4 none;box-sizing: border-box;
+  border:var(--color-border-default);padding-bottom:6px;padding-top:6px">TYPE</td>
+  <td class="xl65" width="123" style="width:92pt;font-size:12.0pt;color:#24292F;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:&quot;Segoe UI&quot;, sans-serif;border-top:.5pt solid #8EA9DB;
+  border-right:none;border-bottom:.5pt solid #8EA9DB;border-left:none;
+  background:#4472C4;mso-pattern:#4472C4 none;box-sizing: border-box;
+  border:var(--color-border-default);padding-bottom:6px;padding-top:6px">Primary
+  Key</td>
+  <td class="xl65" width="130" style="width:98pt;font-size:12.0pt;color:#24292F;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:&quot;Segoe UI&quot;, sans-serif;border-top:.5pt solid #8EA9DB;
+  border-right:.5pt solid #8EA9DB;border-bottom:.5pt solid #8EA9DB;border-left:
+  none;background:#4472C4;mso-pattern:#4472C4 none;box-sizing: border-box;
+  border:var(--color-border-default);padding-bottom:6px;padding-top:6px">Foreign
+  Key</td>
+ </tr>
+ <tr height="21" style="height:15.75pt">
+  <td height="21" class="xl66" width="191" style="height:15.75pt;width:143pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">OBJECTID</td>
+  <td class="xl66" width="69" style="border-left:none;width:52pt;font-size:11.0pt;
+  color:#333333;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Arial, sans-serif;border:1.0pt solid #DDDDDD;
+  background:#F9F9F9;mso-pattern:black none;box-sizing: border-box">string</td>
+  <td class="xl68" width="123" style="border-left:none;width:92pt;font-size:11.0pt;
+  color:#333333;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Arial, sans-serif;border:1.0pt solid #DDDDDD;
+  background:#F9F9F9;mso-pattern:black none">(PK)</td>
+  <td class="xl68" width="130" style="border-left:none;width:98pt;font-size:11.0pt;
+  color:#333333;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Arial, sans-serif;border:1.0pt solid #DDDDDD;
+  background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl67" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">column_alias</td>
+  <td class="xl67" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl69" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">&nbsp;</td>
+  <td class="xl69" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl66" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">column_defaultValue</td>
+  <td class="xl66" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl68" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+  <td class="xl68" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl67" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">column_editable</td>
+  <td class="xl67" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl69" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">&nbsp;</td>
+  <td class="xl69" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl66" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">column_length</td>
+  <td class="xl66" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl68" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+  <td class="xl68" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl67" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">column_name</td>
+  <td class="xl67" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl69" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">&nbsp;</td>
+  <td class="xl69" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">(FK)</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl66" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">column_nullable</td>
+  <td class="xl66" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl68" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+  <td class="xl68" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl67" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">column_type</td>
+  <td class="xl67" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl69" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">&nbsp;</td>
+  <td class="xl69" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl66" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">domain_codedValues</td>
+  <td class="xl66" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl68" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+  <td class="xl68" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl67" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">domain_description</td>
+  <td class="xl67" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl69" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">&nbsp;</td>
+  <td class="xl69" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl66" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">domain_name</td>
+  <td class="xl66" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl68" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+  <td class="xl68" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl67" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">domain_range</td>
+  <td class="xl67" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl69" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">&nbsp;</td>
+  <td class="xl69" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl66" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">domain_type</td>
+  <td class="xl66" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl68" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+  <td class="xl68" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl67" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">column_description</td>
+  <td class="xl67" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl69" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">&nbsp;</td>
+  <td class="xl69" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="21" style="height:15.75pt;box-sizing: border-box">
+  <td height="21" class="xl66" width="191" style="height:15.75pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">column_mandatory</td>
+  <td class="xl66" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none;
+  box-sizing: border-box">string</td>
+  <td class="xl68" width="123" style="border-top:none;border-left:none;width:92pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+  <td class="xl68" width="130" style="border-top:none;border-left:none;width:98pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">&nbsp;</td>
+ </tr>
+ <tr height="20" style="height:15.0pt;box-sizing: border-box">
+  <td height="20" class="xl70" width="191" style="height:15.0pt;border-top:none;
+  width:143pt;font-size:11.0pt;color:#333333;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:white;mso-pattern:black none;
+  box-sizing: border-box">parent_schema_id</td>
+  <td class="xl71" width="69" style="border-top:none;border-left:none;width:52pt;
+  font-size:11.0pt;color:#333333;font-weight:400;text-decoration:none;
+  text-underline-style:none;text-line-through:none;font-family:Arial, sans-serif;
+  border:1.0pt solid #DDDDDD;background:#F9F9F9;mso-pattern:black none">string</td>
+  <td class="xl72" style="font-size:11.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri, sans-serif;border-top:.5pt solid #8EA9DB;border-right:
+  none;border-bottom:1.0pt solid #DDDDDD;border-left:none;background:white;
+  mso-pattern:black none">&nbsp;</td>
+  <td class="xl73" style="font-size:11.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri, sans-serif;border-top:.5pt solid #8EA9DB;border-right:
+  1.0pt solid #DDDDDD;border-bottom:1.0pt solid #DDDDDD;border-left:none;
+  background:white;mso-pattern:black none">&nbsp;</td>
+ </tr>
+</tbody>
+  </table>
 
  </details>  
   
